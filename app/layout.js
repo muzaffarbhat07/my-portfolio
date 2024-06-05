@@ -1,5 +1,6 @@
-// import Nav from '@components/Nav';
 // import '@styles/globals.css';
+import Footer from '@/components/Footer';
+import Header from '@/components/Header';
 import { Suspense } from 'react';
 
 export const metadata = {
@@ -15,10 +16,11 @@ const RootLayout = ({children}) => {
     <html lang='en'>
       <body>
         <main>
-          {/* <Nav /> */}
+          <Header />
           <Suspense>
             {children}
           </Suspense>
+          <Footer />
         </main>
       </body>
     </html>
