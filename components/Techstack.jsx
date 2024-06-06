@@ -6,6 +6,7 @@ import {
   SiRedux,
   SiTailwindcss,
   SiGreensock,
+  SiPwa
 } from "react-icons/si";
 import { BsGit } from "react-icons/bs";
 
@@ -45,6 +46,9 @@ const skillsData = [
   },
   {
     icon: <SiGreensock fontSize={70} color="#fff" />,
+  },
+  {
+    icon: <SiPwa fontSize={70} color="#fff" />,
   },
 ];
 
