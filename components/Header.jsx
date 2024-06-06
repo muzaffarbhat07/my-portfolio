@@ -3,8 +3,6 @@
 import { useEffect, useState } from "react";
 import Link from 'next/link';
 import { useRouter } from "next/navigation";
-import UseAnimations from "react-useanimations";
-import menu3 from "react-useanimations/lib/menu3";
 import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
@@ -12,6 +10,8 @@ import {
 } from "react-icons/ai";
 import { FiUser, FiFileText } from "react-icons/fi";
 import { DiGitBranch } from "react-icons/di";
+import { RiMenu3Fill } from "react-icons/ri";
+import { MdClose } from "react-icons/md";
 import MobileNav from "./MobileNav";
 
 const name = ["{ Muzaffar }"];
@@ -100,13 +100,19 @@ const Header = () => {
       </div>
       <span>
         <div className="h-full lg:hidden flex items-center justify-center cursor-pointer relative">
-          <UseAnimations
-            animation={menu3}
-            size={40}
-            strokeColor={"#be50f4"}
-            speed={2}
-            onClick={() => setShowNav(!showNav)}
-          />
+          {showNav ? (
+            <MdClose
+              fontSize={25}
+              className="text-white"
+              onClick={() => setShowNav(!showNav)}
+            />
+          ) : (
+            <RiMenu3Fill
+              fontSize={25}
+              className="text-white"
+              onClick={() => setShowNav(!showNav)}
+            />
+          )}
           <MobileNav showNav={showNav} setShowNav={setShowNav} />
         </div>
       </span>
