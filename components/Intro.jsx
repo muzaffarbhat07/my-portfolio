@@ -3,14 +3,14 @@ import Tilt from "react-parallax-tilt";
 
 const Intro = () => {
   return (
-    <div className="flex flex-wrap items-center justify-center flex-col lg:flex-row relative overflow-hidden h-[81vh]">
+    <div className="flex flex-wrap items-center justify-center flex-col lg:flex-row relative overflow-hidden">
       <img
         src="/assets/images/star.jpg"
         alt=""
         className="h-full w-full object-cover opacity-10 absolute bottom-0"
       />
-      <div className="w-full lg:w-1/2 h-1/2 lg:h-full flex items-center justify-center flex-col my-10">
-        <h1 className="flex text-white text-2xl lg:text-3xl xl:text-4xl gap-2 m-10">
+      <div className="w-full lg:w-1/2 h-1/2 lg:h-full flex items-center justify-center flex-col my-10 lg:gap-10">
+        <h1 className="flex text-white text-2xl lg:text-4xl gap-2 my-10">
           LET ME <p className="text-[#ad50eb]">INTRODUCE</p> MYSELF
         </h1>
         <div className="flex items-center m-auto justify-center w-11/12 lg:w-3/4 lg:mr-10">
