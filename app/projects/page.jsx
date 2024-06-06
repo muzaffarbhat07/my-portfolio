@@ -1,7 +1,7 @@
 
 const Project = () => {
   return (
-    <div>Project</div>
+    <div className="flex flex-wrap items-center justify-center flex-col lg:flex-row relative overflow-hidden h-screen"></div>
   )
 }
 
