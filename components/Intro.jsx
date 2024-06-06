@@ -16,37 +16,9 @@ const Intro = () => {
         <div className="flex items-center m-auto justify-center w-11/12 lg:w-3/4 lg:mr-10">
           <span className="flex flex-col gap-3 text-white items-start  text-base justify-center font-semibold lg:text-lg">
             <p>
-              I fell in love with coding and I have at least learnt something, I
-              think… 🤷‍♂️
-            </p>
-
-            <p>
-              I am fluent in classics like{" "}
-              <span className="text-[#ad50eb]">React JS and Node JS.</span>
-            </p>
-
-            <p>
-              My field of Interest's are building scalable and efficient{" "}
-              <span className="text-[#ad50eb]">Web Apps</span> And{" "}
-              <span className="text-[#ad50eb]">Servers.</span>
-            </p>
-
-            <p>
-              Whenever possible, I apply my passion for developing products
-              with{" "}
-              <span className="text-[#ad50eb]">Modern Javascript Libraries</span>{" "}
-              and <span className="text-[#ad50eb]">Frameworks </span>
-              like
-              <span className="text-[#ad50eb]"> React.js, Next.js</span> And{" "}
-              <span className="text-[#ad50eb]"> Express.js.</span>
-            </p>
-            <p>
-              And I am happy to join any team working on creating amazing products.{" "}
-              {/* <span className="text-[#ad50eb]">web app </span> and{" "}
-              <span className="text-[#ad50eb]"> server</span> with
-              <span className="text-[#ad50eb]"> Nextjs</span> ,{" "}
-              <span className="text-[#ad50eb]"> Nodejs</span> and{" "}
-              <span className="text-[#ad50eb]">Typescript</span>. */}
+              I'm Muzaffar, a CS graduate from NIT Srinagar & a Fullstack Software Developer from J&K, India with expertise in C++, React, Next.js, Node.js, and Express.js. With
+              1+ years of professional full-time experience, I've built & worked on high-performing
+              applications. As a Software Engineer at Kalpkriti, I developed innovative features for Tweencraft: Cartoon Video Maker Animation app having over 8M downloads on the Google Play Store. With a passion for learning and attention to detail, I'm committed to delivering impactful digital experiences. Let's connect and create together!
             </p>
           </span>
         </div>

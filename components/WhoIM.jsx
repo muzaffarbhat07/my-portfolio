@@ -19,21 +19,18 @@ const WhoIM = () => {
               from <span className="text-[#ad50eb]">J&K, India.</span>
             </p>
             <p className="lg:text-xl font-thin">
-              I am a Software Engineer with 1+ years of experience, and a CS graduate from NIT Srinagar. I am always looking for new challenges. I believe that I can use my skills and experience to
-              contribute to any team and help you achieve your goals. I am
-              looking for an opportunity where I can use my skills in
-              contributing to the success of the company and also to improve my
-              personal skills.
+              I'm a CS graduate from NIT Srinagar & a passionate Fullstack Software Developer based in J&K, India. With 1+ years of professional full-time experience, I specialize in C++ & the
+              MERN stack, including React, Next.js, Node.js, and Express.js.
+              I've crafted high-performing applications for my employers,
+              showcasing my skills through my quality work. As a Software Engineer at Kalpkriti, I developed innovative features for Tweencraft: Cartoon Video Maker Animation app having over 8M downloads on the Google Play Store. With a focus on continuous learning and
+              attention to detail, I'm dedicated to delivering cutting-edge
+              solutions. Let's connect and create something amazing together!
             </p>
             <p className="flex text-gray-200 text-base lg:text-lg gap-2 font-semibold">
-              Apart from coding, some other activities that I love to do!
+              Feel free to explore my portfolio for a deeper insight into my
+              projects and skills. Let's connect and create something amazing
+              together!
             </p>
-            <span className="flex items-center justify-center gap-3 font-sans text-gray-200">
-              <FaHandPointRight /> Playing and Watching Cricket
-            </span>
-            <span className="flex items-center justify-center gap-3 font-sans text-gray-200">
-              <FaHandPointRight /> Travelling
-            </span>
           </span>
         </div>
       </div>
