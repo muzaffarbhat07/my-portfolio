@@ -1,14 +1,24 @@
 import { AiFillHtml5, AiFillGithub } from "react-icons/ai";
-import { FaCss3Alt, FaReact, FaSass, FaBootstrap } from "react-icons/fa";
+import { 
+  FaCss3Alt, 
+  FaReact, 
+  FaSass, 
+  FaBootstrap,
+  FaNodeJs
+} from "react-icons/fa";
 import { BiLogoJavascript } from "react-icons/bi";
 import {
   SiFirebase,
   SiRedux,
   SiTailwindcss,
   SiGreensock,
-  SiPwa
+  SiPwa,
+  SiExpress,
+  SiMongodb,
+  SiPrisma
 } from "react-icons/si";
 import { BsGit } from "react-icons/bs";
+import { TbBrandNextjs } from "react-icons/tb";
 
 const skillsData = [
   {
@@ -49,6 +59,21 @@ const skillsData = [
   },
   {
     icon: <SiPwa fontSize={70} color="#fff" />,
+  },
+  {
+    icon: <FaNodeJs fontSize={70} color="#fff" />,
+  },
+  {
+    icon: <SiExpress fontSize={70} color="#fff" />,
+  },
+  {
+    icon: <SiMongodb fontSize={70} color="#fff" />,
+  },
+  {
+    icon: <TbBrandNextjs fontSize={70} color="#fff" />,
+  },
+  {
+    icon: <SiPrisma fontSize={70} color="#fff" />,
   },
 ];
 
