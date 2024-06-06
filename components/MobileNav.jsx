@@ -12,7 +12,7 @@ const MobileNav = ({ showNav }) => {
     <div
       className={
         showNav
-          ? "fixed h-1/2 bg-gradient-to-r from-purple-900 to-violet-900  w-full top-[51px] left-0 rounded-b-md border-2 border-t-0 border-purple-700 z-20 transition-all duration-[500ms] overflow-hidden"
+          ? "fixed h-1/2 bg-gradient-to-r from-purple-900 to-violet-900  w-full top-[51px] left-0 rounded-b-md z-20 transition-all duration-[500ms] overflow-hidden"
           : "fixed h-0 bg-gradient-to-r from-purple-900 to-violet-900  w-full top-[51px] left-0 rounded-b-md border-2 border-t-0 border-purple-700 z-20 transition-all duration-[500ms] overflow-hidden"
       }
     >
