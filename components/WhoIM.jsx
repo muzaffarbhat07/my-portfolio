@@ -4,7 +4,7 @@ const WhoIM = () => {
   return (
     <div className="flex flex-wrap items-center justify-center flex-col lg:flex-row relative">
       <img
-        src="./star.jpg"
+        src="/assets/images/star.jpg"
         alt=""
         className="h-full w-full object-cover opacity-30 absolute bottom-0 z-0"
       />
