@@ -15,6 +15,7 @@ const Github = () => {
         style={{ color: "#ccc" }}
         fontSize={16}
         theme={explicitTheme}
+        showWeekdayLabels={true}
       />
     </div>
   );
