@@ -12,7 +12,6 @@ import { BsGit } from "react-icons/bs";
 const skillsData = [
   {
     icon: <AiFillHtml5 fontSize={70} color="#fff" />,
-    tooltip: "html5",
   },
   {
     icon: <FaCss3Alt fontSize={70} color="#fff" />,
@@ -51,7 +50,7 @@ const skillsData = [
 
 const Techstack = () => {
   return (
-    <div className="relative w-11/12 lg:w-4/5 m-auto flex items-center justify-center gap-3 flex-wrap">
+    <div className="relative w-11/12 lg:w-4/5 m-auto flex items-center justify-center gap-3 flex-wrap my-5 lg:my-10">
       <img
         src="/assets/images/star.jpg"
         alt=""
