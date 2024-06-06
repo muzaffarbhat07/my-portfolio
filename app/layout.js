@@ -1,4 +1,4 @@
-// import '@styles/globals.css';
+import '@/styles/globals.css';
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
 import { Suspense } from 'react';
@@ -15,7 +15,7 @@ const RootLayout = ({children}) => {
   return (
     <html lang='en'>
       <body>
-        <main>
+        <main className="bg-gradient-to-r from-slate-900 via-purple-900 to-slate-900">
           <Header />
           <Suspense>
             {children}
