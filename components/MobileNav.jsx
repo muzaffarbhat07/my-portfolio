@@ -40,12 +40,12 @@ const MobileNav = ({ showNav, setShowNav }) => {
           </li>
           <li className="relative group">
             <Link
-              href={"/projects"}
+              href={"/work"}
               className="flex gap-1 items-center justify-center cursor-pointer text-base font-bold relative"
               onClick={() => setShowNav(false)}
             >
               <AiOutlineFundProjectionScreen fontSize={20} />
-              <span className="">Projects</span>
+              <span className="">Work</span>
             </Link>
           </li>
           <li className="relative group">

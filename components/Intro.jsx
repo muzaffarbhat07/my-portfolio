@@ -16,9 +16,11 @@ const Intro = () => {
         <div className="flex items-center m-auto justify-center w-11/12 lg:w-3/4 lg:mr-10">
           <span className="flex flex-col gap-3 text-white items-start  text-base justify-center font-semibold lg:text-lg">
             <p>
-              I'm Muzaffar, a CS graduate from NIT Srinagar & a Fullstack Software Developer from J&K, India with expertise in C++, React, Next.js, Node.js, and Express.js. With
-              1+ years of professional full-time experience, I've built & worked on high-performing
-              applications. As a Software Engineer at Kalpkriti, I developed innovative features for Tweencraft: Cartoon Video Maker Animation app having over 8M downloads on the Google Play Store. With a passion for learning and attention to detail, I'm committed to delivering impactful digital experiences. Let's connect and create together!
+              I'm Muzaffar, a Fullstack Software Developer with expertise in C++, React, Next.js, Node.js, and Express.js. </p>
+              <p>With 1+ years of professional full-time experience, I've built & worked on high-performing
+              applications. </p>
+              <p>As a Software Engineer at Kalpkriti, I developed innovative features for Tweencraft: Cartoon Video Maker Animation app having over 8M downloads on the Google Play Store. </p>
+              <p>With a passion for learning and attention to detail, I'm committed to delivering impactful digital experiences. Let's connect and create together!
             </p>
           </span>
         </div>

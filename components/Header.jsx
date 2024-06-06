@@ -70,11 +70,11 @@ const Header = () => {
           </li>
           <li className="relative group">
             <Link
-              href={"/projects"}
+              href={"/work"}
               className="flex gap-1 items-center justify-center cursor-pointer text-base lg:text-lg font-semibold relative before:absolute before:rounded-md before:left-0 before:-bottom-1 before:w-0 transition-all before:duration-200 before:h-[4px] before:bg-purple-500 group-hover:before:w-full"
             >
               <AiOutlineFundProjectionScreen fontSize={20} />
-              <span className="">Projects</span>
+              <span className="">Work</span>
             </Link>
           </li>
           <li className="relative group">

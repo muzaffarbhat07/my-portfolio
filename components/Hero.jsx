@@ -16,7 +16,7 @@ const Hero = () => {
             </span>
           </h3>
           <span className="flex text-white text-4xl lg:text-5xl gap-2 font-bold">
-            I'M <p className="text-[#ad50eb]"> MUZAFFAR</p>
+            I'M <p className="text-[#ad50eb]"> MUZAFFAR BHAT</p>
           </span>
           <span className="flex text-[#ad50eb] text-2xl lg:text-3xl gap-2 font-semibold bg-gray-800 h-20 lg:h-32 w-72 lg:w-80 items-center justify-center px-5 rounded-md shadow-xl capitalize text-center">
             <Type />
