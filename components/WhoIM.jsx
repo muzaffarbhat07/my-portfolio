@@ -12,10 +12,10 @@ const WhoIM = () => {
         <h1 className="flex text-white text-2xl lg:text-4xl gap-2 font-bold">
           Know Who <p className="text-[#ad50eb]">I'M</p>
         </h1>
-        <div className="flex items-center m-auto justify-center w-11/12 lg:w-3/4">
-          <span className="flex flex-col gap-3 text-white items-start  text-base justify-center font-semibold lg:text-lg lg:mr-20">
-            <p className="text-center mt-3">
-              Hi Everyone, I am <span className="text-[#ad50eb]"> Muzaffar</span>{" "}
+        <div className="flex items-center m-auto justify-center w-11/12 lg:w-4/5">
+          <span className="flex flex-col gap-3 text-white items-start  text-base justify-center font-semibold lg:text-lg">
+            <p className="text-center mt-3 mx-auto md:mx-0">
+              Greetings Everyone! I am <span className="text-[#ad50eb]"> Muzaffar</span>{" "}
               from <span className="text-[#ad50eb]">J&K, India.</span>
             </p>
             <p className="lg:text-xl font-thin">
