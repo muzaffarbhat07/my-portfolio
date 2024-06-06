@@ -2,7 +2,7 @@ import Type from "./Type"
 
 const Hero = () => {
   return (
-    <div className="bg-[url(/assets/images/home-bg.jpg)] h-2/3 flex flex-wrap items-center justify-center flex-col lg:flex-row">
+    <div className="bg-[url(/assets/images/home-bg.jpg)] h-[90vh] flex flex-wrap items-center justify-center flex-col lg:flex-row">
       <div className="w-full lg:w-1/2 h-1/2 lg:h-full flex items-center justify-center flex-col mt-10">
         <div className=" flex gap-5 items-center lg:items-start justify-center flex-col">
           <h3 className="flex text-white text-4xl gap-2">
