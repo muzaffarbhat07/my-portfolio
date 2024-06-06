@@ -1,7 +1,12 @@
+import Github from "@/components/Github"
+import WhoIM from "@/components/WhoIM"
 
 const About = () => {
   return (
-    <div>About</div>
+    <div>
+      <WhoIM />
+      <Github />
+    </div>
   )
 }
 
