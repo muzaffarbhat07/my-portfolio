@@ -20,7 +20,7 @@ const projectsData = [
     image: "/assets/images/projects/promptopia.jpg",
     about: "Promptopia is an open-source AI prompting tool for modern world to discover, create and share creative prompts.",
     demo: "https://promptopia-muzaffar.vercel.app/",
-    code: "https://github.com/muzaffarbhat07/promptopia",
+    // code: "https://github.com/muzaffarbhat07/promptopia",
   },
 ]
 
@@ -32,6 +32,12 @@ const Projects = () => {
         alt=""
         className="h-full w-full object-cover opacity-20 absolute bottom-0"
       />
+      <h1 className="m-auto flex items-center w-full justify-center gap-2 text-gray-200 font-medium text-3xl sm:text-4xl my-3">
+        My Recent <p className="text-[#ad50eb]">Works </p>
+      </h1>
+      <p className="text-gray-200 text-xs sm:text-lg">
+        Here are a few personal projects I've worked on recently.
+      </p>
       <div className="z-20 flex items-center justify-center gap-3 m-2 flex-wrap">
         {projectsData.map((project, i) => <ProjectCard project={project} key={i} />)}
       </div>

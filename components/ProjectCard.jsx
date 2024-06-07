@@ -17,7 +17,7 @@ const ProjectCard = ({ project }) => {
             />
           </Tilt>
         </div>
-        <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center ">
+        <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
             {name}
           </h1>
@@ -43,11 +43,13 @@ const ProjectCard = ({ project }) => {
                 </button>
               </a>
             )}
-            <a href={code} target="_blank" rel="noreferrer">
-              <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-5 focus:outline-none font-medium items-center justify-center gap-1 hover:bg-gray-200 rounded text-lg">
-                Code <BsGithub />
-              </button>
-            </a>
+            {code && (
+              <a href={code} target="_blank" rel="noreferrer">
+                <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-5 focus:outline-none font-medium items-center justify-center gap-1 hover:bg-gray-200 rounded text-lg">
+                  Code <BsGithub />
+                </button>
+              </a>
+            )}
           </div>
         </div>
       </div>
