@@ -24,7 +24,7 @@ const LineText = ({ children }) => {
 
 const experiencesData = [
   {
-    role: 'SDE',
+    role: 'Software Engineer',
     org: {
       name: 'Kalpkriti',
       link: 'https://tweencraft.com'
@@ -76,7 +76,7 @@ const Experiences = () => {
       {/* <p className="text-gray-200 text-xs sm:text-lg">
         Here are my professional experiences I've been to.
       </p> */}
-      <section className="flex flex-col text-gray-200 z-20 justify-center gap-8 m-2 flex-wrap max-w-[1150px] px-1 sm:px-5">
+      <section className="flex flex-col text-gray-200 z-20 justify-center gap-8 m-2 flex-wrap max-w-[1150px] px-1 sm:px-5 mb-14">
         {experiencesData.map((experience, i) => <ExperienceCard experience={experience} key={i}/>)}
       </section>
     </>
