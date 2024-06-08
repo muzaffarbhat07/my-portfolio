@@ -20,7 +20,7 @@ const ExperienceCard = ({ experience }) => {
               </Link>
             <p className="font-medium text-xs sm:text-sm">{duration}</p>
           </div>
-          <div className="flex flex-col gap-1 lg:text-xl font-thin">
+          <div className="flex flex-col gap-1 lg:text-xl font-thin text-gray-200">
             {lines.map((line, i) => <Line line={line} key={i}/>)}
           </div>
         </article>
