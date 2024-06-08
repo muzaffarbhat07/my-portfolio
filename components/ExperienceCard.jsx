@@ -8,7 +8,7 @@ const ExperienceCard = ({ experience }) => {
   const { role, org, duration, lines } = experience;
   return (
     <article className="flex flex-col body-font rounded-lg">
-          <h1 className="text-2xl lg:text-4xl gap-2 font-bold text-white">{role}</h1>
+          <h1 className="text-3xl sm:text-4xl gap-2 font-bold text-white">{role}</h1>
           <div className="flex flex-row justify-between items-center text-base font-semibold lg:text-lg">
             <Link 
               href={org.link} 
