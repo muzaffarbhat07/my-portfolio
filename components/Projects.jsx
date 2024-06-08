@@ -32,7 +32,7 @@ const Projects = () => {
         alt=""
         className="h-full w-full object-cover opacity-20 absolute bottom-0"
       />
-      <h1 className="m-auto flex items-center w-full justify-center gap-2 text-gray-200 font-medium text-3xl sm:text-4xl my-3">
+      <h1 className="m-auto flex items-center w-full justify-center gap-2 text-gray-200 font-medium text-4xl my-3">
         My Recent <p className="text-[#ad50eb]">Works </p>
       </h1>
       <p className="text-gray-200 text-xs sm:text-lg">

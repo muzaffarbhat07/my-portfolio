@@ -1,4 +1,4 @@
-import { FaHandPointRight } from "react-icons/fa";
+
 
 const WhoIM = () => {
   return (
