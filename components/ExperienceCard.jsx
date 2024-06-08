@@ -8,7 +8,7 @@ const ExperienceCard = ({ experience }) => {
   const { role, org, duration, lines } = experience;
   return (
     <article className="flex flex-col body-font rounded-lg">
-          <h1 className="text-3xl sm:text-4xl gap-2 font-bold text-white">{role}</h1>
+          <h1 className="text-3xl sm:text-4xl gap-2 font-bold">{role}</h1>
           <div className="flex flex-row justify-between items-center text-base font-semibold lg:text-lg">
             <Link 
               href={org.link} 
@@ -18,7 +18,7 @@ const ExperienceCard = ({ experience }) => {
               >
                 {org.name}
               </Link>
-            <p className="font-medium italic text-xs sm:text-sm">{duration}</p>
+            <p className="font-thin italic text-xs sm:text-sm">{duration}</p>
           </div>
           <div className="flex flex-col gap-1 lg:text-xl font-thin text-gray-200">
             {lines.map((line, i) => <Line line={line} key={i}/>)}

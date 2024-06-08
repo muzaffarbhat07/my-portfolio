@@ -38,7 +38,7 @@ const Projects = () => {
       <p className="text-gray-200 text-xs sm:text-lg">
         Here are a few personal projects I've worked on recently.
       </p>
-      <div className="z-20 flex items-center justify-center gap-3 m-2 flex-wrap max-w-[1150px]">
+      <div className="z-20 flex items-center justify-center gap-3 m-2 flex-wrap max-w-[1150px] text-gray-200">
         {projectsData.map((project, i) => <ProjectCard project={project} key={i} />)}
       </div>
     </>

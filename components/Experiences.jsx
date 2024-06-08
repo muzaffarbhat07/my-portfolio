@@ -15,7 +15,7 @@ const LineLink = ({ link, children }) => {
 }
 
 const BoldText = ({ children }) => {
-  return <span className="font-semibold">{children}</span>
+  return <span className="font-semibold text-gray-300">{children}</span>
 }
 
 const LineText = ({ children }) => {
