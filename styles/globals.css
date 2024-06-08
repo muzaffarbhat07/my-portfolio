@@ -20,3 +20,11 @@ body::-webkit-scrollbar-thumb {
   background: transparent !important;
   display: none !important;
  }
+
+ .my_shadow {
+  box-shadow: 0.2px 0.2px 4px 4px #6f03b6, -0.2px -0.2px #6f03b6, -0.2px 0.2px #6f03b6, 0.4px -0.2px #6f03b6;
+ }
+
+ .my_shadow:hover {
+  box-shadow: 0.2px 0.2px 4px 4px #8b04e4, -0.2px -0.2px #8b04e4, -0.2px 0.2px #8b04e4, 0.4px -0.2px #8b04e4;
+ }

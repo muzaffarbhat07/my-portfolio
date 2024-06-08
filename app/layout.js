@@ -4,7 +4,7 @@ import Header from '@/components/Header';
 import { Suspense } from 'react';
 
 export const metadata = {
-  title: 'Muzaffar',
+  title: 'Muzaffar Ahmad Bhat',
   description: 'My Personal Portfolio',
   icons: {
     icon: '/assets/images/cv.png'
