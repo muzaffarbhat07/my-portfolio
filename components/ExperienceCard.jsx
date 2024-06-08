@@ -18,7 +18,7 @@ const ExperienceCard = ({ experience }) => {
               >
                 {org.name}
               </Link>
-            <p className="font-medium text-xs sm:text-sm">{duration}</p>
+            <p className="font-medium italic text-xs sm:text-sm">{duration}</p>
           </div>
           <div className="flex flex-col gap-1 lg:text-xl font-thin text-gray-200">
             {lines.map((line, i) => <Line line={line} key={i}/>)}

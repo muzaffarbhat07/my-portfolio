@@ -29,7 +29,7 @@ const experiencesData = [
       name: 'Kalpkriti',
       link: 'https://tweencraft.com'
     },
-    duration: 'Apr 2023 - May 2024',
+    duration: 'Apr 23 - May 24 • 1 yr 2 mos',
     lines: [
       <LineText>Developed innovative features for <LineLink link="https://tweencraft.com">TweenCraft</LineLink>: Cartoon video maker animation app, leading to a significant increase in user engagement and surpassing <BoldText>8M</BoldText> downloads milestone.</LineText>,
       <LineText>Pioneered the implementation of <BoldText>reel creation using imported or selected audio</BoldText>, resulting in a <BoldText>60%</BoldText> enhancement in user-generated content output through precise lip-syncing.</LineText>,
@@ -47,7 +47,7 @@ const experiencesData = [
       name: 'Juspay',
       link: 'https://juspay.in'
     },
-    duration: 'Jan 2023 - Apr 2024',
+    duration: 'Jan 23 - Apr 24 • 3 mos 18 days',
     lines: [
       <LineText>Worked in the <LineLink link="https://juspay.in/products">payment page</LineLink> team - a cross platform, scalable solution that gives merchants access to all and ever-changing payment methods with a single integration.</LineText>,
       <LineText>Designed <BoldText>Database and APIs</BoldText> along with my team members for performance, scalability and availability.</LineText>,
@@ -59,7 +59,7 @@ const experiencesData = [
       name: 'Kalpkriti',
       link: 'https://tweencraft.com'
     },
-    duration: 'Nov 2021 - Feb 2022',
+    duration: 'Nov 21 - Feb 22 • 4 mos',
     lines: [
       <LineText>Worked in the front-end team for the mobile application <LineLink link="https://tweencraft.com">TweenCraft</LineLink>.</LineText>,
       <LineText>Built new home screen design of the app where YouTube embedded videos are shown under different categories and much more using <BoldText>C++</BoldText> primarily.</LineText>,
