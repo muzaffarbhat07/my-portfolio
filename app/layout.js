@@ -2,6 +2,7 @@ import '@/styles/globals.css';
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
 import { Suspense } from 'react';
+import Contact from '@/components/Contact';
 
 export const metadata = {
   title: 'Muzaffar Ahmad Bhat',
@@ -19,6 +20,7 @@ const RootLayout = ({children}) => {
           <Header />
           <Suspense>
             {children}
+            <Contact />
           </Suspense>
           <Footer />
         </main>
