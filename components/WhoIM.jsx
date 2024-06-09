@@ -15,7 +15,7 @@ const WhoIM = () => {
         <div className="flex items-center m-auto justify-center w-11/12 lg:w-4/5">
           <span className="flex flex-col gap-3 text-white items-start  text-base justify-center font-semibold lg:text-lg">
             <p className="text-center mt-3 mx-auto md:mx-0">
-              Greetings Everyone! I am <span className="text-[#ad50eb]"> Muzaffar</span>{" "}
+              Greetings Everyone! I am <span className="text-[#ad50eb]"> Muzaffar Bhat</span>{" "}
               from <span className="text-[#ad50eb]">J&K, India.</span>
             </p>
             <p className="lg:text-xl font-thin">

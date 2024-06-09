@@ -1,7 +1,3 @@
-import { BsGithub } from "react-icons/bs";
-// import { RiTwitterXFill } from "react-icons/ri";
-import { FaLinkedinIn } from "react-icons/fa";
-import { AiFillInstagram } from "react-icons/ai";
 import Contacts from "./Contacts";
 
 const Footer = () => {
