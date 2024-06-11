@@ -1,26 +1,5 @@
+import { BoldText, PointLink, PointText } from "./BulletPoint";
 import ExperienceCard from "./ExperienceCard"
-import Link from "next/link"
-
-const LineLink = ({ link, children }) => {
-  return (
-    <Link 
-      href={link} 
-      target="_blank" 
-      rel="noreferrer" 
-      className="text-purple-500 cursor-pointer hover:text-purple-600 transition-all duration-100 hover:-translate-y-[0.5px] font-semibold"
-    >
-      {children}
-    </Link>
-  );
-}
-
-const BoldText = ({ children }) => {
-  return <span className="font-medium">{children}</span>
-}
-
-const LineText = ({ children }) => {
-  return <p className="inline ml-2">{children}</p>
-}
 
 const experiencesData = [
   {
@@ -30,22 +9,22 @@ const experiencesData = [
       link: 'https://tweencraft.com'
     },
     duration: 'Apr 23 - May 24 • 1 yr 2 mos',
-    lines: [
-      <LineText>Developed innovative features for <LineLink link="https://tweencraft.com">TweenCraft</LineLink>: Cartoon video maker animation app, leading to a significant increase in user engagement and surpassing <BoldText>8M</BoldText> downloads milestone.</LineText>,
+    points: [
+      <PointText>Developed innovative features for <PointLink link="https://tweencraft.com">TweenCraft</PointLink>: Cartoon video maker animation app, leading to a significant increase in user engagement and surpassing <BoldText>8M</BoldText> downloads milestone.</PointText>,
 
-      <LineText>Pioneered the implementation of <BoldText>reel creation using imported or selected audio</BoldText>, resulting in a <BoldText>60%</BoldText> enhancement in user-generated content output through precise lip-syncing.</LineText>,
+      <PointText>Pioneered the implementation of <BoldText>reel creation using imported or selected audio</BoldText>, resulting in a <BoldText>60%</BoldText> enhancement in user-generated content output through precise lip-syncing.</PointText>,
 
-      <LineText>Engineered <BoldText>cinematic filters</BoldText> to enhance user-generated content, enabling dynamic focus on speaking characters and immersive camera effects.</LineText>,
+      <PointText>Engineered <BoldText>cinematic filters</BoldText> to enhance user-generated content, enabling dynamic focus on speaking characters and immersive camera effects.</PointText>,
 
-      <LineText>Spearheaded <BoldText>UI/UX enhancements</BoldText> for streamlined story creation, simplifying the storytelling process for users.</LineText>,
+      <PointText>Spearheaded <BoldText>UI/UX enhancements</BoldText> for streamlined story creation, simplifying the storytelling process for users.</PointText>,
 
-      <LineText>Designed and <BoldText>optimized APIs to enhance app performance</BoldText> and scalability, improving overall user experience.</LineText>,
+      <PointText>Designed and <BoldText>optimized APIs to enhance app performance</BoldText> and scalability, improving overall user experience.</PointText>,
 
-      <LineText>Developed <BoldText>feed feature</BoldText> allowing users to publish, discover and watch published reels based on generated rating, contributing to a <BoldText>30%</BoldText> increase in user base through enhanced social interaction and content discovery.</LineText>,
+      <PointText>Developed <BoldText>feed feature</BoldText> allowing users to publish, discover and watch published reels based on generated rating, contributing to a <BoldText>30%</BoldText> increase in user base through enhanced social interaction and content discovery.</PointText>,
 
-      <LineText>Provided <BoldText>leadership</BoldText> as a code and design <BoldText>reviewer</BoldText>, ensuring high-quality standards and <BoldText>mentoring</BoldText> junior team members.</LineText>,
+      <PointText>Provided <BoldText>leadership</BoldText> as a code and design <BoldText>reviewer</BoldText>, ensuring high-quality standards and <BoldText>mentoring</BoldText> junior team members.</PointText>,
 
-      <LineText>Streamlined development, testing, and release <BoldText>processes</BoldText> to ensure smooth workflow and the delivery of a high-quality product to users.</LineText>,
+      <PointText>Streamlined development, testing, and release <BoldText>processes</BoldText> to ensure smooth workflow and the delivery of a high-quality product to users.</PointText>,
     ]
   },
   {
@@ -55,10 +34,10 @@ const experiencesData = [
       link: 'https://juspay.in'
     },
     duration: 'Jan 23 - Apr 24 • 3 mos 18 days',
-    lines: [
-      <LineText>Worked in the <LineLink link="https://juspay.in/products">payment page</LineLink> team - a cross platform, scalable solution that gives merchants access to all and ever-changing payment methods with a single integration.</LineText>,
+    points: [
+      <PointText>Worked in the <PointLink link="https://juspay.in/products">payment page</PointLink> team - a cross platform, scalable solution that gives merchants access to all and ever-changing payment methods with a single integration.</PointText>,
 
-      <LineText>Designed <BoldText>Database and APIs</BoldText> along with my team members for performance, scalability and availability.</LineText>,
+      <PointText>Designed <BoldText>Database and APIs</BoldText> along with my team members for performance, scalability and availability.</PointText>,
     ]
   },
   {
@@ -68,10 +47,10 @@ const experiencesData = [
       link: 'https://tweencraft.com'
     },
     duration: 'Nov 21 - Feb 22 • 4 mos',
-    lines: [
-      <LineText>Worked in the front-end team for the mobile application <LineLink link="https://tweencraft.com">TweenCraft</LineLink>.</LineText>,
+    points: [
+      <PointText>Worked in the front-end team for the mobile application <PointLink link="https://tweencraft.com">TweenCraft</PointLink>.</PointText>,
 
-      <LineText>Built new home screen design of the app where YouTube embedded videos are shown under different categories and much more using <BoldText>C++</BoldText> primarily.</LineText>,
+      <PointText>Built new home screen design of the app where YouTube embedded videos are shown under different categories and much more using <BoldText>C++</BoldText> primarily.</PointText>,
     ]
   }
 ];

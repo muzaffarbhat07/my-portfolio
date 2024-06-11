@@ -1,29 +1,39 @@
 import ProjectCard from "@/components/ProjectCard"
+import { BoldText, PointText } from "./BulletPoint";
 
 const projectsData = [
   {
     name: "Online Code Editor",
     image: "/assets/images/projects/editor.jpg",
-    about: "It's an Online Code-Editor for HTML, CSS, JS code snippets with the functionality similar to that of codepen.io. To save a user's work, localStorage is used.",
     demo: "https://muzaffarbhat07.github.io/online-code-editor/",
     code: "https://github.com/muzaffarbhat07/online-code-editor",
-    techStack: 'React.js'
+    techStack: 'React.js',
+    points: [
+      <PointText>It's an Online Code Editor for <BoldText>HTML, CSS, JS code snippets</BoldText> with the functionality similar to that of codepen.io.</PointText>,
+      <PointText>Users can seamlessly <BoldText>write</BoldText> code and witness the <BoldText>live output</BoldText> of it, all within a <BoldText>unified interface</BoldText>. For convenience, localStorage is employed to preserve users' work.</PointText>,
+    ]
   },
   {
     name: "Muzaffar's Blog",
     image: "/assets/images/projects/blog.jpg",
-    about: "It's my personal blog app where I share blogs about tech. Users can read, comment and like the blogs.",
     demo: "https://muzaffars-blog.onrender.com/",
     code: "https://github.com/muzaffarbhat07/muzaffars-blog",
-    techStack: 'React.js, RTK, Node.js, Express.js, MongoDb'
+    techStack: 'React.js, Redux, Node.js, Express.js, MongoDb',
+    points: [
+      <PointText>It's my personal blog app, dedicated to sharing insightful tech blogs. Users can <BoldText>read, comment, and like posts</BoldText>. They can easily find content by <BoldText>searching</BoldText> titles or keywords, and organize results with <BoldText>filters</BoldText> and <BoldText>sorting</BoldText> options. Plus, there's a convenient <BoldText>dark mode</BoldText> for comfortable reading.</PointText>,
+      <PointText>It includes <BoldText>admin dashboard</BoldText> to ensure smooth management, allowing oversight of blogs, user activity, and comments. It's a comprehensive tool to maintain the platform's integrity and quality.</PointText>,
+    ]
   },
   {
     name: "Promptopia",
     image: "/assets/images/projects/promptopia.jpg",
-    about: "Promptopia is an open-source AI prompting tool for modern world to discover, create and share creative prompts.",
     demo: "https://promptopia-muzaffar.vercel.app/",
     // code: "https://github.com/muzaffarbhat07/promptopia",
-    techStack: 'Next.js'
+    techStack: 'Next.js, TailwindCSS, NextAuth',
+    points: [
+      <PointText>Promptopia is an open-source <BoldText>AI prompting tool</BoldText> for modern world to <BoldText>discover, create and share</BoldText> creative prompts.</PointText>,
+      <PointText>It's entirely crafted using <BoldText>Next.js</BoldText>, encompassing both client and server sides, and integrates seamlessly with <BoldText>NextAuth</BoldText> for enhanced user authentication.</PointText>,
+    ]
   },
 ]
 

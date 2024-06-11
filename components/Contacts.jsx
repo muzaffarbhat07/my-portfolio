@@ -21,7 +21,7 @@ const contactsData = [
 const Contacts = ({ style }) => {
   return (
     <>
-      {contactsData.map((contact, i) => <ContactLink contact={contact} style={style}/>)}
+      {contactsData.map((contact, i) => <ContactLink contact={contact} style={style} key={i}/>)}
     </>
   )
 }

@@ -1,11 +1,8 @@
 import Link from "next/link"
-import { FaHandPointRight } from "react-icons/fa";
-import { ImPointRight } from "react-icons/im";
-import { PiPaperPlaneRightFill } from "react-icons/pi";
-
+import BulletPoint from "./BulletPoint";
 
 const ExperienceCard = ({ experience }) => {
-  const { role, org, duration, lines } = experience;
+  const { role, org, duration, points } = experience;
   return (
     <article className="flex flex-col body-font rounded-md bg-black/30 z-20 md:hover:scale-[1.01] transition-all duration-300 px-2 sm:px-5 py-5">
           <h1 className="text-3xl sm:text-4xl gap-2 font-bold">{role}</h1>
@@ -20,20 +17,11 @@ const ExperienceCard = ({ experience }) => {
             </Link>
             <p className="font-thin italic text-xs sm:text-sm text-gray-100">{duration}</p>
           </div>
-          <div className="flex flex-col gap-1 lg:text-xl font-thin text-gray-200">
-            {lines.map((line, i) => <Line line={line} key={i}/>)}
+          <div className="flex flex-col gap-1 md:text-lg xl:text-xl font-thin text-gray-200">
+            {points.map((point, i) => <BulletPoint point={point} key={i}/>)}
           </div>
         </article>
   )
-}
-
-const Line = ({line}) => {
-  return (
-    <div className="">
-      <PiPaperPlaneRightFill className="inline"/>
-      {line}
-    </div>
-  );
 }
 
 export default ExperienceCard
