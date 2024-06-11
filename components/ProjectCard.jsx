@@ -8,9 +8,9 @@ const ProjectCard = ({ project }) => {
   const { name, image, demo, code, techStack, points } = project;
   return (
     <section className="text-gray-200 body-font rounded-md bg-black/30 z-20 md:hover:scale-[1.01] transition-all duration-300">
-      <div className="mx-auto flex px-2 md:px-5 py-10 md:py-5 md:flex-row flex-col items-center">
+      <div className="mx-auto flex px-2 md:px-5 py-10 md:py-5 lg:flex-row flex-col items-center">
         {/* <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0"> */}
-        <div className="md:max-w-sm lg:max-w-lg lg:w-full mb-10 md:mb-0 md:order-2">
+        <div className="sm:max-w-xl md:max-w-2xl lg:max-w-lg lg:w-full mb-10 lg:mb-0 lg:order-2 flex-shrink-0">
           <Tilt>
             <img
               className="object-cover object-center rounded"
@@ -20,7 +20,7 @@ const ProjectCard = ({ project }) => {
           </Tilt>
         </div>
         {/* <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center"> */}
-        <div className="lg:flex-grow flex flex-col md:items-start pb-5">
+        <div className="lg:flex-grow flex flex-col lg:items-start pb-5">
           <h1 className="title-font sm:text-4xl text-3xl font-bold">
             {name}
           </h1>

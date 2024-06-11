@@ -20,7 +20,7 @@ const projectsData = [
     code: "https://github.com/muzaffarbhat07/muzaffars-blog",
     techStack: 'React.js, Redux, Node.js, Express.js, MongoDb',
     points: [
-      <PointText>It's my personal blog app, dedicated to sharing insightful tech blogs. Users can <BoldText>read, comment, and like posts</BoldText>. They can easily find content by <BoldText>searching</BoldText> titles or keywords, and organize results with <BoldText>filters</BoldText> and <BoldText>sorting</BoldText> options. Plus, there's a convenient <BoldText>dark mode</BoldText> for comfortable reading.</PointText>,
+      <PointText>It's my personal blog app, dedicated to sharing insightful tech blogs. Users can <BoldText>read, comment, and like posts</BoldText>. They can easily find content by <BoldText>searching</BoldText> titles or keywords, and organize results with <BoldText>filters</BoldText> and <BoldText>sorting</BoldText> options.</PointText>,
       <PointText>It includes <BoldText>admin dashboard</BoldText> to ensure smooth management, allowing oversight of blogs, user activity, and comments. It's a comprehensive tool to maintain the platform's integrity and quality.</PointText>,
     ]
   },
