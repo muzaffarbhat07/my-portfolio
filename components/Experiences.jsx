@@ -33,7 +33,7 @@ const experiencesData = [
       name: 'Juspay',
       link: 'https://juspay.in'
     },
-    duration: 'Jan 23 - Apr 24 • 3 mos 18 days',
+    duration: 'Jan 23 - Apr 23 • 3 mos 18 days',
     points: [
       <PointText>Worked in the <PointLink link="https://juspay.in/products">payment page</PointLink> team - a cross platform, scalable solution that gives merchants access to all and ever-changing payment methods with a single integration.</PointText>,
 
