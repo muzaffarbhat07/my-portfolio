@@ -1,24 +1,21 @@
-import { CgCPlusPlus } from "react-icons/cg";
 import { AiFillHtml5, AiFillGithub } from "react-icons/ai";
 import { 
   FaCss3Alt, 
   FaReact, 
   FaNodeJs
 } from "react-icons/fa";
-import { BiLogoJavascript } from "react-icons/bi";
 import {
   SiFirebase,
   SiRedux,
   SiTailwindcss,
-  SiPwa,
   SiExpress,
   SiMongodb,
   SiPrisma,
   SiCplusplus,
-  SiMongoose 
+  SiMongoose
 } from "react-icons/si";
 import { BsGit } from "react-icons/bs";
-import { TbBrandNextjs } from "react-icons/tb";
+import { TbBrandNextjs, TbBrandTypescript, TbFileTypeSql } from "react-icons/tb";
 import { RiJavascriptLine } from "react-icons/ri";
 const skillsData = [
   {
@@ -28,6 +25,14 @@ const skillsData = [
   {
     icon: <RiJavascriptLine />,
     name: 'Javascript',
+  },
+  {
+    icon: <TbBrandTypescript />,
+    name: 'Typescript',
+  },
+  {
+    icon: <TbBrandNextjs />,
+    name: 'Next.js',
   },
   {
     icon: <FaReact />,
@@ -54,16 +59,16 @@ const skillsData = [
     name: 'MongoDb',
   },
   {
-    icon: <TbBrandNextjs />,
-    name: 'Next.js',
-  },
-  {
     icon: <SiMongoose />,
     name: 'Mongoose',
   },
   {
     icon: <SiPrisma />,
     name: 'Prisma',
+  },
+  {
+    icon: <TbFileTypeSql />,
+    name: 'SQL',
   },
   {
     icon: <BsGit />,
