@@ -3,6 +3,17 @@ import { BoldText, PointText } from "./BulletPoint";
 
 const projectsData = [
   {
+    name: "Identity Reconciliation Service",
+    image: "/assets/images/projects/id_recon.jpg",
+    demo: "https://identity-reconcillation.vercel.app/",
+    code: "https://github.com/muzaffarbhat07/identity-reconciliation/",
+    techStack: 'Node.js, TypeScript, PostgreSQL, Prisma',
+    points: [
+      <PointText>The Identity Reconciliation API Service is designed to <BoldText>identify</BoldText> and keep track of a user's identity <BoldText>across multiple requests</BoldText> with <BoldText>different contact information</BoldText>.</PointText>,
+      <PointText>This service ensures <BoldText>linking different requests</BoldText> made <BoldText>with different contact information</BoldText> to the <BoldText>same person</BoldText>.</PointText>,
+    ]
+  },
+  {
     name: "Online Code Editor",
     image: "/assets/images/projects/editor.jpg",
     demo: "https://muzaffarbhat07.github.io/online-code-editor/",

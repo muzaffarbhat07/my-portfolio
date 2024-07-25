@@ -12,7 +12,8 @@ import {
   SiMongodb,
   SiPrisma,
   SiCplusplus,
-  SiMongoose
+  SiMongoose,
+  SiPostgresql
 } from "react-icons/si";
 import { BsGit } from "react-icons/bs";
 import { TbBrandNextjs, TbBrandTypescript, TbFileTypeSql } from "react-icons/tb";
@@ -31,6 +32,34 @@ const skillsData = [
     name: 'Typescript',
   },
   {
+    icon: <FaNodeJs />,
+    name: 'Node.js',
+  },
+  {
+    icon: <SiExpress />,
+    name: 'Express.js',
+  },
+  {
+    icon: <SiPrisma />,
+    name: 'Prisma',
+  },
+  {
+    icon: <TbFileTypeSql />,
+    name: 'SQL',
+  },
+  {
+    icon: <SiPostgresql />,
+    name: 'PostgreSQL',
+  },
+  {
+    icon: <SiMongoose />,
+    name: 'Mongoose',
+  },
+  {
+    icon: <SiMongodb />,
+    name: 'MongoDB',
+  },
+  {
     icon: <TbBrandNextjs />,
     name: 'Next.js',
   },
@@ -45,30 +74,6 @@ const skillsData = [
   {
     icon: <SiTailwindcss />,
     name: 'Tailwind CSS',
-  },
-  {
-    icon: <FaNodeJs />,
-    name: 'Node.js',
-  },
-  {
-    icon: <SiExpress />,
-    name: 'Express.js',
-  },
-  {
-    icon: <SiMongodb />,
-    name: 'MongoDb',
-  },
-  {
-    icon: <SiMongoose />,
-    name: 'Mongoose',
-  },
-  {
-    icon: <SiPrisma />,
-    name: 'Prisma',
-  },
-  {
-    icon: <TbFileTypeSql />,
-    name: 'SQL',
   },
   {
     icon: <BsGit />,
