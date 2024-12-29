@@ -19,11 +19,14 @@ const WhoIM = () => {
               from <span className="text-[#ad50eb]">J&K, India.</span>
             </p>
             <p className="lg:text-xl font-thin">
-              I'm a CS graduate from NIT Srinagar & a passionate Fullstack Software Developer based in J&K, India. With 1+ years of professional full-time experience, I specialize in C++ & the
-              MERN stack, including React, Next.js, Node.js, and Express.js.
-              I've crafted high-performing applications for my employers,
-              showcasing my skills through my quality work. As a Software Engineer at Kalpkriti, I developed innovative features for Tweencraft: Cartoon Video Maker Animation app having over 8M downloads on the Google Play Store. With a focus on continuous learning and
-              attention to detail, I'm dedicated to delivering cutting-edge
+              I'm a CS graduate from NIT Srinagar & a passionate Fullstack Software Developer based in J&K, India. With over 1.5 years of professional full-time experience, I specialize in C++ & the
+              MERN stack, including React, Next.js, Node.js, and Express.js. I've crafted high-performing applications for my employers, showcasing my skills through my quality work.
+            </p>
+            <p className="lg:text-xl font-thin">
+              I'm currently working with Cypherock to add different crypto coins' support to theri X1 hardware wallet along with their portfolio management desktop app enabling users to transact seamlessly in any crypto asset while securing their private seeds and keys.
+            </p>
+            <p className="lg:text-xl font-thin">
+              As a Software Engineer at Kalpkriti, I developed innovative features for Tweencraft: Cartoon Video Maker Animation app having over 8M downloads on the Google Play Store. With a focus on continuous learning and attention to detail, I'm dedicated to delivering cutting-edge
               solutions. Let's connect and create something amazing together!
             </p>
             <p className="flex text-gray-200 text-base lg:text-lg gap-2 font-semibold">
