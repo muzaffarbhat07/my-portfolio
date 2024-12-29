@@ -17,8 +17,9 @@ const Intro = () => {
           <span className="flex flex-col gap-3 text-white items-start  text-base justify-center font-semibold lg:text-lg">
             <p>
               I'm Muzaffar, a Fullstack Software Developer with expertise in C++, React, Next.js, Node.js, and Express.js. </p>
-              <p>With 1+ years of professional full-time experience, I've built & worked on high-performing
+              <p>With over 1.5 years of professional full-time experience, I've built & worked on high-performing
               applications. </p>
+              <p>I'm currently working with Cypherock to add different crypto coins' support to theri X1 hardware wallet along with their portfolio management desktop app enabling users to transact seamlessly in any crypto asset while securing their private seeds and keys.</p>
               <p>As a Software Engineer at Kalpkriti, I developed innovative features for Tweencraft: Cartoon Video Maker Animation app having over 8M downloads on the Google Play Store. </p>
               <p>With a passion for learning and attention to detail, I'm committed to delivering impactful digital experiences. Let's connect and create together!
             </p>

@@ -5,6 +5,18 @@ const experiencesData = [
   {
     role: 'Software Engineer',
     org: {
+      name: 'Cypherock',
+      link: 'https://cypherock.com'
+    },
+    duration: 'Aug 24 - Present • 4 mos',
+    points: [
+      <PointText>Developed end-to-end <BoldText>XRP chain support</BoldText>, from <BoldText>Cypherock <PointLink link="https://www.cypherock.com/wallet-backup">X1 firmware</PointLink> development</BoldText> (in C) to <BoldText><PointLink link="https://www.cypherock.com/portfolio-management">Cysync</PointLink> client-server integrations</BoldText> (in Typescript, React, Node.js), progressing the solution from <BoldText>PoC to production</BoldText>, thus enabling crypto exchange for XRP.</PointText>,
+      <PointText>Currently working on integrating support for <BoldText>StarkNet</BoldText>, a cutting-edge Layer 2 blockchain solution for enhanced scalability and security.</PointText>
+    ]
+  },
+  {
+    role: 'Software Engineer',
+    org: {
       name: 'Kalpkriti',
       link: 'https://tweencraft.com'
     },
