@@ -19,7 +19,7 @@ const WhoIM = () => {
               from <span className="text-[#ad50eb]">J&K, India.</span>
             </p>
             <p className="lg:text-xl font-thin">
-              I'm a CS graduate from NIT Srinagar & a passionate Fullstack Software Developer based in J&K, India. With over 1.5 years of professional full-time experience, I specialize in C++ & the
+              I'm a CS graduate from NIT Srinagar & a passionate Fullstack Software Developer based in J&K, India. With over 2 years of professional full-time experience, I specialize in C/C++, Web3 & the
               MERN stack, including React, Next.js, Node.js, and Express.js. I've crafted high-performing applications for my employers, showcasing my skills through my quality work.
             </p>
             <p className="lg:text-xl font-thin">

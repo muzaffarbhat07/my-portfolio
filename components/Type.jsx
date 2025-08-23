@@ -5,7 +5,7 @@ const Type = () => {
   return (
     <div>
       <Typewriter
-        words={["Software Engineer", "Fullstack Developer"]}
+        words={["Software Engineer", "Fullstack Developer", "Web3 Developer"]}
         loop={0}
         cursor
         cursorStyle="|"
