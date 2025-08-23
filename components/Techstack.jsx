@@ -1,8 +1,9 @@
-import { AiFillHtml5, AiFillGithub } from "react-icons/ai";
+import { AiFillHtml5 } from "react-icons/ai";
 import { 
   FaCss3Alt, 
   FaReact, 
-  FaNodeJs
+  FaNodeJs,
+  FaDocker
 } from "react-icons/fa";
 import {
   SiFirebase,
@@ -12,8 +13,10 @@ import {
   SiMongodb,
   SiPrisma,
   SiCplusplus,
+  SiC,
   SiMongoose,
-  SiPostgresql
+  SiPostgresql,
+  SiWeb3Dotjs
 } from "react-icons/si";
 import { BsGit } from "react-icons/bs";
 import { TbBrandNextjs, TbBrandTypescript, TbFileTypeSql } from "react-icons/tb";
@@ -22,6 +25,10 @@ const skillsData = [
   {
     icon: <SiCplusplus />,
     name: 'C++',
+  },
+  {
+    icon: <SiC />,
+    name: 'C',
   },
   {
     icon: <RiJavascriptLine />,
@@ -76,6 +83,10 @@ const skillsData = [
     name: 'Tailwind CSS',
   },
   {
+    icon: <FaDocker />,
+    name: 'Docker',
+  },
+  {
     icon: <BsGit />,
     name: 'Git',
   },
@@ -90,6 +101,10 @@ const skillsData = [
   {
     icon: <SiFirebase />,
     name: 'Firebase',
+  },
+  {
+    icon: <SiWeb3Dotjs />,
+    name: 'Web3',
   },
   // {
   //   icon: <SiPwa />,
