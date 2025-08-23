@@ -56,12 +56,14 @@ const Projects = () => {
         alt=""
         className="h-full w-full object-cover opacity-20 absolute bottom-0"
       />
-      <h1 className="m-auto flex items-center w-full justify-center gap-2 text-gray-200 font-medium text-4xl mt-3 mb-2">
-        My Recent <p className="text-[#ad50eb]">Works </p>
-      </h1>
-      <p className="text-gray-200 text-xs sm:text-lg">
-        Here are a few personal projects I've worked on recently.
-      </p>
+      <div className="m-auto flex items-center w-full flex-col">
+        <h1 className="m-auto flex items-center w-full justify-center gap-2 text-gray-200 font-medium text-4xl mt-3 mb-2">
+          My Recent <p className="text-[#ad50eb]">Works </p>
+        </h1>
+        <p className="text-gray-200 text-xs sm:text-lg">
+          Here are a few personal projects I've worked on recently.
+        </p>
+      </div>
       <div className="z-20 flex flex-col justify-center gap-3 my-2 mx-1 flex-wrap max-w-[1150px] text-gray-200 mt-5">
         {projectsData.map((project, i) => <ProjectCard project={project} key={i} />)}
       </div>
