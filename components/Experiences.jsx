@@ -8,23 +8,30 @@ const experiencesData = [
       name: 'Cypherock',
       link: 'https://cypherock.com'
     },
-    duration: 'Aug 24 - Present • 4 mos',
+    duration: 'Aug 24 - Present • 1 yr 1 mo',
     points: [
-      <PointText>Developed end-to-end <BoldText>XRP chain support</BoldText>, from <BoldText>Cypherock <PointLink link="https://www.cypherock.com/wallet-backup">X1 firmware</PointLink> development</BoldText> (in C) to <BoldText><PointLink link="https://www.cypherock.com/portfolio-management">Cysync</PointLink> client-server integrations</BoldText> (in Typescript, React, Node.js), progressing the solution from <BoldText>PoC to production</BoldText>, thus enabling crypto exchange for XRP.</PointText>,
-      <PointText>Currently working on integrating support for <BoldText>StarkNet</BoldText>, a cutting-edge Layer 2 blockchain solution for enhanced scalability and security.</PointText>
+      <PointText>Developed end-to-end <BoldText>chain support for XRP, StarkNet, Solana tokens, ICP, Constellation, and Stellar,</BoldText> from <BoldText>Cypherock <PointLink link="https://www.cypherock.com/product/cypherock-x1#wallet">X1 firmware</PointLink> development</BoldText> (C) to <BoldText><PointLink link="https://www.cypherock.com/get-started">Cysync</PointLink> client-server integrations</BoldText> (Typescript, React, Node.js), progressing the solution from <BoldText>PoC to production.</BoldText></PointText>,
+
+      <PointText>Built <BoldText>crypto C2C swap/exchange feature</BoldText> across firmware and client-server layers, enabling seamless cryptocurrency exchanges within the Cysync wallet ecosystem.</PointText>,
+
+      <PointText>Engineered <BoldText>BTC SegWit and Taproot address/transaction support</BoldText> across firmware and client-server stack, enhancing Bitcoin functionality.</PointText>,
+
+      <PointText>Implemented advanced <BoldText>multiparty <PointLink link="https://www.ibm.com/think/topics/homomorphic-encryption">homomorphic encryption</PointLink> algorithms & homomorphic operations</BoldText> including addition, scalar multiplication, multiplication, and 2-degree polynomial evaluation using <BoldText>Beaver triples</BoldText> with threshold access structures.</PointText>,
+
+      <PointText><BoldText>Mentored and trained interns, junior developers, and <PointLink link="https://www.summerofbitcoin.org/">Summer of Bitcoin</PointLink> candidates,</BoldText> guiding them across multiple blockchain and cryptography projects.</PointText>
     ]
   },
   {
     role: 'Software Engineer',
     org: {
       name: 'Kalpkriti',
-      link: 'https://tweencraft.com'
+      link: 'http://kalpkriti.com/'
     },
     duration: 'Apr 23 - May 24 • 1 yr 2 mos',
     points: [
-      <PointText>Developed innovative features for <PointLink link="https://tweencraft.com">TweenCraft</PointLink>: Cartoon video maker animation app, leading to a significant increase in user engagement and surpassing <BoldText>8M</BoldText> downloads milestone.</PointText>,
+      <PointText>Developed innovative features for <PointLink link="http://kalpkriti.com/">TweenCraft</PointLink>: Cartoon video maker animation app, leading to a significant increase in user engagement and surpassing <BoldText>8M</BoldText> downloads milestone.</PointText>,
 
-      <PointText>Pioneered the implementation of <BoldText>reel creation using imported or selected audio</BoldText>, resulting in a <BoldText>60%</BoldText> enhancement in user-generated content output through precise lip-syncing.</PointText>,
+      <PointText>Built <BoldText>reel creation using imported or selected audio</BoldText>, resulting in a <BoldText>60%</BoldText> enhancement in user-generated content output through precise amplitude-based lip-syncing.</PointText>,
 
       <PointText>Engineered <BoldText>cinematic filters</BoldText> to enhance user-generated content, enabling dynamic focus on speaking characters and immersive camera effects.</PointText>,
 
@@ -34,9 +41,9 @@ const experiencesData = [
 
       <PointText>Developed <BoldText>feed feature</BoldText> allowing users to publish, discover and watch published reels based on generated rating, contributing to a <BoldText>30%</BoldText> increase in user base through enhanced social interaction and content discovery.</PointText>,
 
-      <PointText>Provided <BoldText>leadership</BoldText> as a code and design <BoldText>reviewer</BoldText>, ensuring high-quality standards and <BoldText>mentoring</BoldText> junior team members.</PointText>,
+      <PointText>Reviewed code/designs, ensuring high-quality engineering standards and <BoldText>mentoring</BoldText> junior team members.</PointText>,
 
-      <PointText>Streamlined development, testing, and release <BoldText>processes</BoldText> to ensure smooth workflow and the delivery of a high-quality product to users.</PointText>,
+      <PointText>Streamlined <BoldText>development/testing/release processes</BoldText> to ensure smooth workflow and the delivery of a high-quality product to users.</PointText>,
     ]
   },
   {
@@ -56,11 +63,11 @@ const experiencesData = [
     role: 'SDE Intern',
     org: {
       name: 'Kalpkriti',
-      link: 'https://tweencraft.com'
+      link: 'http://kalpkriti.com/'
     },
     duration: 'Nov 21 - Feb 22 • 4 mos',
     points: [
-      <PointText>Worked in the front-end team for the mobile application <PointLink link="https://tweencraft.com">TweenCraft</PointLink>.</PointText>,
+      <PointText>Worked in the front-end team for the mobile application <PointLink link="http://kalpkriti.com/">TweenCraft</PointLink>.</PointText>,
 
       <PointText>Built new home screen design of the app where YouTube embedded videos are shown under different categories and much more using <BoldText>C++</BoldText> primarily.</PointText>,
     ]
@@ -70,12 +77,14 @@ const experiencesData = [
 const Experiences = () => {
   return (
     <>
-      <h1 className="m-auto flex items-center w-full justify-center gap-2 text-gray-200 font-medium text-4xl my-3">
-        My <p className="text-[#ad50eb]">Experiences </p>
-      </h1>
-      {/* <p className="text-gray-200 text-xs sm:text-lg">
-        Here are my professional experiences I've been to.
-      </p> */}
+      <div className="m-auto flex flex-col items-center w-full my-3">
+        <h1 className="m-auto flex items-center w-full justify-center gap-2 text-gray-200 font-medium text-4xl my-3">
+          My <p className="text-[#ad50eb]">Experiences </p>
+        </h1>
+        <p className="text-gray-200 text-xs sm:text-lg">
+          Here are my professional experiences I've been to.
+        </p>
+      </div>
       <section className="flex flex-col text-gray-200 z-20 justify-center gap-3 my-2 mx-1 flex-wrap max-w-[1150px] mb-14">
         {experiencesData.map((experience, i) => <ExperienceCard experience={experience} key={i}/>)}
       </section>
