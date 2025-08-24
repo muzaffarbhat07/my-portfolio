@@ -8,10 +8,17 @@ const experiencesData = [
       name: 'Cypherock',
       link: 'https://cypherock.com'
     },
-    duration: 'Aug 24 - Present • 4 mos',
+    duration: 'Aug 24 - Present • 1 yr 1 mo',
     points: [
-      <PointText>Developed end-to-end <BoldText>XRP chain support</BoldText>, from <BoldText>Cypherock <PointLink link="https://www.cypherock.com/wallet-backup">X1 firmware</PointLink> development</BoldText> (in C) to <BoldText><PointLink link="https://www.cypherock.com/portfolio-management">Cysync</PointLink> client-server integrations</BoldText> (in Typescript, React, Node.js), progressing the solution from <BoldText>PoC to production</BoldText>, thus enabling crypto exchange for XRP.</PointText>,
-      <PointText>Currently working on integrating support for <BoldText>StarkNet</BoldText>, a cutting-edge Layer 2 blockchain solution for enhanced scalability and security.</PointText>
+      <PointText>Developed end-to-end <BoldText>chain support for XRP, StarkNet, Solana tokens, ICP, Constellation, and Stellar,</BoldText> from <BoldText>Cypherock <PointLink link="https://www.cypherock.com/product/cypherock-x1#wallet">X1 firmware</PointLink> development</BoldText> (C) to <BoldText><PointLink link="https://www.cypherock.com/get-started">Cysync</PointLink> client-server integrations</BoldText> (Typescript, React, Node.js), progressing the solution from <BoldText>PoC to production.</BoldText></PointText>,
+
+      <PointText>Built <BoldText>crypto C2C swap/exchange feature</BoldText> across firmware and client-server layers, enabling seamless cryptocurrency exchanges within the Cysync wallet ecosystem.</PointText>,
+      
+      <PointText>Engineered <BoldText>BTC SegWit and Taproot address/transaction support</BoldText> across firmware and client-server stack, enhancing Bitcoin functionality.</PointText>,
+
+      <PointText>Implemented advanced <BoldText>multiparty <PointLink link="https://www.ibm.com/think/topics/homomorphic-encryption">homomorphic encryption</PointLink> algorithms & homomorphic operations</BoldText> including addition, scalar multiplication, multiplication, and 2-degree polynomial evaluation using <BoldText>Beaver triples</BoldText> with threshold access structures.</PointText>,
+
+      <PointText><BoldText>Mentored and trained interns, junior developers, and <PointLink link="https://www.summerofbitcoin.org/">Summer of Bitcoin</PointLink> candidates,</BoldText> guiding them across multiple blockchain and cryptography projects.</PointText>
     ]
   },
   {
