@@ -77,12 +77,14 @@ const experiencesData = [
 const Experiences = () => {
   return (
     <>
-      <h1 className="m-auto flex items-center w-full justify-center gap-2 text-gray-200 font-medium text-4xl my-3">
-        My <p className="text-[#ad50eb]">Experiences </p>
-      </h1>
-      {/* <p className="text-gray-200 text-xs sm:text-lg">
-        Here are my professional experiences I've been to.
-      </p> */}
+      <div className="m-auto flex flex-col items-center w-full my-3">
+        <h1 className="m-auto flex items-center w-full justify-center gap-2 text-gray-200 font-medium text-4xl my-3">
+          My <p className="text-[#ad50eb]">Experiences </p>
+        </h1>
+        <p className="text-gray-200 text-xs sm:text-lg">
+          Here are my professional experiences I've been to.
+        </p>
+      </div>
       <section className="flex flex-col text-gray-200 z-20 justify-center gap-3 my-2 mx-1 flex-wrap max-w-[1150px] mb-14">
         {experiencesData.map((experience, i) => <ExperienceCard experience={experience} key={i}/>)}
       </section>
