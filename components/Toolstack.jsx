@@ -5,7 +5,7 @@ import {
   SiVisualstudio,
   SiPostman,
   SiVercel,
-  SiNetlify,
+  SiLinux
 } from "react-icons/si";
 
 const toolsData = [
@@ -24,6 +24,10 @@ const toolsData = [
   {
     icon: <SiVercel />,
     name: 'Vercel'
+  },
+  {
+    icon: <SiLinux />,
+    name: 'Linux'
   },
   {
     icon: <BsWindows />,
